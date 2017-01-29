@@ -1,6 +1,8 @@
+#!/bin/bash
+
 CONDITIONS=which zsh && which nvim
 
-if ! CONDITIONS; then
+if ! $CONDITIONS; then
     echo 'please install zsh and nvim!'
     exit 1
 fi
